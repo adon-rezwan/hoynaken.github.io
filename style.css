@@ -1,0 +1,86 @@
+body {
+    background-color:#c0c0c0;
+    opacity:.8;
+    font-family:fantasy;
+    margin:20px;
+    font-size:15px;
+    font-style:italic;
+}
+.pic1{
+    margin-left:8px;
+    border-radius:100px;
+    border: solid black;
+    height:210px;
+    width:400px;
+    box-shadow:5px 5px 5px black;
+    opacity:0.7;
+}
+.language{
+    border-radius:15px;
+    background-color:#e6b800;
+    font-size:15px;
+    font-weight:bold;
+    color:#F5F5F5;
+    padding:20px;
+    font-style:italic;
+    box-shadow:5px 5px 5px black;
+}
+h1{
+    font-size:40px;
+    font-style:italic ;
+    text-align:center ;
+    text-shadow:5px 5px 5px;
+}
+.li1{
+    font-weight:bold;
+    color:green;
+}
+.polyglot{
+    border-radius:15px;
+    font-weight:bold;
+    background-color:#009900;
+    color:#F5F5F5;
+    padding:20px;
+    font-size:15px;
+    box-shadow:5px 5px 5px black;
+}
+.li2{
+    color:red;
+}
+.pic-polyglot{
+    width:110px;
+    border-radius:50%;
+    margin:10px;
+}
+
+
+.misconception{
+    border-radius:15px;
+    background-color:#b366ff;
+    font-size:15px;
+    font-weight:bold;
+    color:#F5F5F5;
+    padding:20px;
+    box-shadow:5px 5px 5px black;
+}
+.li3{
+    color:#b3ffff;
+}
+@keyframes change-color{
+    0%{background-color:blue; top:10px; left:10px;}
+    15%{background-color:red;top:20px; left:20px;}
+    30%{background-color:green;top:30px; left:30px;}
+    45%{background-color:yellow;top:40px; left:40px;}
+    75%{background-color:aqua;top:70px; left:70px;}
+    100%{background-color:white;top:90px; left:90px;}
+}
+.box-animation{
+    animation-duration:3s;
+    animation-name:change-color;
+    animation-iteration-count:infinite ;
+    margin-right:100px;
+    padding:100px;
+    position:relative ;
+    border-radius:50%;
+}
+
