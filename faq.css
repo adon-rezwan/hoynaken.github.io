@@ -1,11 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
-body {
+.background {
   background-image:linear-gradient(#262626,black);
     background-repeat:no-repeat;
     height:100vh;
-margin:0;
-    padding:0;
+
 }
 
 *{
