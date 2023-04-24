@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+body {
+  background: linear-gradient(to bottom, #000, #080808);
+}
+
+*{
+    margin:0;
+    padding:0;
+
+
+}
+
+
+
+.navbar{
+    width:80%;
+    margin:0;
+    padding:30px 0 0 50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+    margin:0 10px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: wheat;
+    text-transform: uppercase;
+    font-size:20px;
+   font-family: 'Noto Serif JP', serif;
+
+
+
+
+}
+.logo{
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transform:rotate(0 deg);
+    transition-property: all;
+    font-size:2rem;
+    color:#00ff00;
+    font-family: 'Noto Serif JP', serif;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+    text-align:center;
+}
+.logo:hover{
+    transform:rotate(360deg);
+}
+
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#00ff00;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: .5s;
+    box-shadow:0 2px 20px #4dffdb;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  color: #00ff00;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+  font-family: 'Open Sans', sans-serif;
+  margin:50px;
+}
+
+.question-header {
+  color: #00ff00;
+  font-size: 24px;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.answer {
+  color: wheat;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
