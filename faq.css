@@ -33,7 +33,7 @@ body {
     text-decoration:none;
     color: wheat;
     text-transform: uppercase;
-    font-size:20px;
+    font-size:2rem;
    font-family: 'Noto Serif JP', serif;
 
 
@@ -47,7 +47,7 @@ body {
     transition-duration: .5s;
     transform:rotate(0 deg);
     transition-property: all;
-    font-size:2rem;
+    font-size:3rem;
     color:#00ff00;
     font-family: 'Noto Serif JP', serif;
     text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
@@ -77,13 +77,13 @@ body {
 
 
 .container {
-  margin: 20px auto;
+  margin: 20px;
   padding: 20px;
 }
 
 .header {
   color: #00ff00;
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
   font-family: 'Open Sans', sans-serif;
@@ -92,13 +92,13 @@ body {
 
 .question-header {
   color: #00ff00;
-  font-size: 24px;
+  font-size: 2rem;
   text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
   font-family: 'Open Sans', sans-serif;
 }
 
 .answer {
   color: wheat;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
 }
