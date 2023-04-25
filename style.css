@@ -105,6 +105,11 @@ button{
      font-family: 'Open Sans', sans-serif;
     
 }
+button a {
+    color: wheat;
+}
+
+
 span{
     height:100%;
     width:0;
