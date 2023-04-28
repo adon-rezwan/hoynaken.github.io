@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Noto+Sans&display=swap');
+
+
+
+body {
+  background-color: #000000;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  animation: glowings 2s ease-in-out infinite;
+  font-size:2.5rem;
+}
+
+@keyframes glowings {
+  0% {
+    color: #fff;
+    text-shadow: 0 0 10px #00FF7F, 0 0 20px #00FF7F, 0 0 30px #00FF7F;
+  }
+  50% {
+    color: #32CD32;
+    text-shadow: 0 0 20px #32CD32, 0 0 30px #32CD32, 0 0 40px #32CD32;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #00FF7F, 0 0 20px #00FF7F, 0 0 30px #00FF7F;
+  }
+}
+
+
+form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
+
+.option label {
+  margin-left: 20px;
+  font-size:1.5rem;
+  color:lime;
+  font-weight:bold;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5);
+  color:green;
+}
+
+input[type="button"] {
+  background-image: linear-gradient(135deg, #32CD32, #00FF7F, #32CD32,#008000);
+  background-size: 400% 400%;
+  animation: glowing 3s ease-in-out infinite;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.alert {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#question {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #00ff00;
+}
