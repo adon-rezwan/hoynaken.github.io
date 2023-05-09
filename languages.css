@@ -100,18 +100,24 @@ a {
   animation: none;
 }
 
-/* Responsive layout for computer screens */
 @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 1200px;
-        margin: 50px auto;
-        padding: 30px;
-    }
-
-    .button {
-        margin: 20px;
-        padding: 20px 30px;
-        font-size: 1.5rem;
-    }
+  /* adjust styles for screens with a minimum width of 768px */
+  
+  .container {
+    padding: 80px 40px;
+  }
+  
+  .glow {
+    font-size: 80px;
+  }
+  
+  li {
+    margin-bottom: 40px;
+  }
+  
+  .language-box {
+    font-size: 32px;
+    padding: 30px;
+  }
 }
 
