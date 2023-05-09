@@ -66,3 +66,17 @@
                 margin: 5px 0;
             }
         }
+/* Responsive layout for computer screens */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 30px;
+    }
+
+    .button {
+        margin: 20px;
+        padding: 20px 30px;
+        font-size: 1.5rem;
+    }
+}
