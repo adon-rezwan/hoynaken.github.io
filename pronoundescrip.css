@@ -1,0 +1,68 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Noto+Sans&display=swap');
+body {
+	font-family: 'Noto Naskh Arabic', serif;
+ font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	background-color: black;
+	color:lime;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	margin: 20px;
+	border: 2px solid lime;
+	padding:20px;
+	border-radius:5px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 2px solid lime;
+	border-radius:5px;
+	width: 100%;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid lime;
+}
+
+th {
+	font-weight: bold;
+	background-color:lime;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	table {
+		font-size: 14px;
+	}
+	
+	th, td {
+		padding: 8px;
+	}
+}
+
+button{
+  margin:20px;
+  padding:15px;
+  background-color:lime;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+  font-family: 'Noto Sans', sans-serif;
+}
